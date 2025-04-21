@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Modelos de Tenis</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: black;
+        }
+
+        header {
+            background: linear-gradient(to bottom, #8B0000, black);
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 48px;
+            color: lightgray;
+            margin: 0;
+        }
+
+        .subtitulo {
+            text-align: center;
+            color: red;
+            font-size: 32px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .contenedor {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 40px;
+        }
+
+        .marca {
+            border-radius: 30px;
+            padding: 20px;
+            width: 300px;
+        }
+
+        .marca-verde {
+            background: linear-gradient(to bottom, green, #00cc00);
+        }
+
+        .marca-azul {
+            background: linear-gradient(to bottom, #00008B, #4169E1);
+        }
+
+        .marca img.logo {
+            display: block;
+            margin: 0 auto 20px;
+            width: 100px;
+            height: auto;
+            border-radius: 15px;
+        }
+
+        .producto {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .producto img {
+            width: 150px;
+            height: auto;
+            border-radius: 15px;
+        }
+
+        .producto p {
+            margin: 10px 0 0;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hombre</h1>
+    </header>
+
+    <div class="subtitulo">Nuestros modelos</div>
+
+    <div class="contenedor">
+        <!-- Sección Tenis Mike -->
+        <div class="marca marca-verde">
+            <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUod4MuYphi-Ci6T3AU1H1sCOik4QS2Ng6gA&s" alt="Tenis Mike">
+            
+            <div class="producto">
+                <img src="https://preview.redd.it/4w3vdklp45221.jpg?auto=webp&s=79e97264ed59756a4bdca82c727533207100e543" alt="Tenis mike premium">
+                <p>Tenis mike premium<br>$1200</p>
+            </div>
+            <div class="producto">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFu4UzRShgaHh3hkgSYxRu2cvdUz9KJKE5kA&s" alt="Tenis mikecito">
+                <p>Tenis mikecito<br>$800</p>
+            </div>
+        </div>
+
+        <!-- Sección Pumba -->
+        <div class="marca marca-azul">
+            <img class="logo" src="https://i.pinimg.com/736x/c1/82/81/c182814c3d08d59999f7f9c0a3838e37.jpg" alt="Pumba">
+
+            <div class="producto">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Qpxjdfmd0XU5B8700E67nccE2iwEfevTkA&s" alt="Tenis pumba sport">
+                <p>Tenis pumba sport<br>$1250</p>
+            </div>
+            <div class="producto"jpg>
+                <img src="https://pbs.twimg.com/media/EnHA5M0XEAMiRMb.jpg" alt="Tenis pumbanice">
+                <p>Tenis pumbanice<br>$950</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
