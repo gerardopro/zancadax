@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial -scale=1.0">
+    <title>Calzado Mujer</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: center;
+            background-color: #f5f5f5;
+        }
+
+        .banner {
+            background-color: #7d3fbf;
+            color: white;
+            padding: 40px;
+            font-size: 50px;
+            font-weight: bold;
+            position: relative;
+        }
+
+        .banner::before,
+        .banner::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            width: 50px;
+            height: 100%;
+            background: #7d3fbf;
+        }
+
+        .banner::before {
+            left: 0;
+            clip-path: polygon(100% 0, 0% 50%, 100% 100%);
+        }
+
+        .banner::after {
+            right: 0;
+            clip-path: polygon(0 0, 100% 50%, 0 100%);
+        }
+
+        h2 {
+            color: #007bff;
+            margin: 20px 0;
+        }
+
+        .modelos {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 100px 30px;
+            
+            
+        }
+
+        .marca {
+            background-color: #7d3fbf;
+            border-radius: 20px;
+            padding: 80px;
+            width: 35%;
+            height: 30%;
+            color: black;
+        }
+
+        .marca img.logo {
+            height: 200px;
+            margin-bottom: 170px;
+            width: 300px;
+            border-radius: 30px;
+            box-shadow: 5px 5px 10px black;
+        }
+
+        .producto {
+            margin: 15px 0;
+        }
+
+        .producto img {
+            width: 200px;
+            height: 200px;
+            border-radius: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="banner">MUJER</div>
+
+    <h2>Nuestros modelos</h2>
+
+    <div class="modelos">
+        <div class="marca">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUod4MuYphi-Ci6T3AU1H1sCOik4QS2Ng6gA&s.jpg" alt="Tenis Mike" class="logo">
+            <div class="producto">
+                <img src="https://i.pinimg.com/474x/84/38/df/8438df8d44e17cc5750c922547a6301e--nike-high-heels-high-heel-boots.jpg" alt="Tacones Mike">
+                <p>Tacones mike<br>$1500</p>
+            </div>
+            <div class="producto">
+                <img src="https://i.pinimg.com/736x/62/9a/e4/629ae46a0b744fcadd41f1ab95454b0d.jpg" alt="Tacones Mike">
+                <p>Tacones mike<br>$2500</p>
+            </div>
+        </div>
+
+        <div class="marca" style="background-color: #a78ccf;">
+            <img src="https://i.pinimg.com/736x/c1/82/81/c182814c3d08d59999f7f9c0a3838e37.jpg" alt="Pumba" class="logo">
+            <div class="producto">
+                <img src="https://pbs.twimg.com/media/FCuDsSZXsAcq-my.jpg" alt="Tenis Pumba Negro">
+                <p>Tenis Pumba<br>$1600</p>
+            </div>
+            <div class="producto">
+                <img src="https://www.tennis-point.de/dw/image/v2/BBDP_PRD/on/demandware.static/-/Sites-master-catalog/default/dw2ef22dbd/images/079/154/00362000_0_7.jpg?q=80&sw=2000" alt="Tenis Pumba Blanco">
+                <p>Tenis Pumba<br>$2900</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
