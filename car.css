@@ -1,0 +1,88 @@
+body {
+    background-color: #eee;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #f3a4fa;
+    padding: 10px;
+    text-align: center;
+}
+
+.register-box {
+    background: white;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.register-box h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.register-option {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.register-option:last-child {
+    border-bottom: none;
+}
+
+.icon {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #3483fa;
+    width: 30px;
+    text-align: center;
+}
+
+.text h3 {
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.text p {
+    margin: 5px 0 0 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.register-option button {
+    margin-left: auto;
+    background: #3483fa;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-option button:hover {
+    background: #2968c8;
+}
+
+.business-account {
+    text-align: center;
+    color: #555;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.business-account a {
+    color: #3483fa;
+    text-decoration: none;
+}
+.business-account a:hover {
+    text-decoration: underline;
+}

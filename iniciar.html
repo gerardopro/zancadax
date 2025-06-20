@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Iniciar sesión en glow up</title>
+    <link rel="stylesheet" href="iniciar2.css">
+</head>
+<body>
+    <header class="header">
+        <div><strong>Glow up</strong></div>
+    </header>
+    <main>
+        <!-- Título -->
+        <h1>Ingresa tu e-mail o teléfono para iniciar sesión</h1>
+        <!-- Link "Necesito ayuda" -->
+        <a href="#" class="help-link">Necesito ayuda</a>
+
+        <!-- Formulario -->
+        <div class="right-panel">
+            <div class="form-box">
+                <label for="email">E-mail o teléfono</label>
+                <input type="text" id="email" name="email" placeholder="">
+                <button class="btn-primary">Continuar</button>
+                <a href="#" class="create-account" id="createAccountLink">Crear cuenta</a>
+                <div class="divider">
+                    <hr><span>o</span><hr>
+                </div>
+                <button class="btn-google">
+                    <img src="https://www.google.com/favicon.ico" alt="Google"> Iniciar sesión con Google
+                </button>
+            </div>
+        </div>
+    </main>
+    <div class="dudas">
+         <div><strong>tengo una duda</strong></div>
+    </div>
+
+    <!-- Redirección al hacer clic en "Crear cuenta" -->
+    <script>
+        document.getElementById('createAccountLink').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.location.href = 'index.html';
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro glow up</title>
+    <link rel="stylesheet" href="car.css">
+</head>
+<body>
+    <header class="header">
+        <div><strong>Glow up</strong></div>
+    </header>
+    <main>
+        <div class="register-box">
+            <h2>Completa los datos para crear tu cuenta</h2>
+            
+            <div class="register-option">
+                <div class="icon">📧</div>
+                <div class="text">
+                    <h3>Agrega tu e-mail</h3>
+                    <p>Elige un e-mail al que puedas entrar siempre.</p>
+                </div>
+                <button>Agregar</button>
+            </div>
+
+            <div class="register-option">
+                <div class="icon">🧑</div>
+                <div class="text">
+                    <h3>Elige un nombre</h3>
+                    <p>Se mostrará a las personas que interactúen contigo.</p>
+                </div>
+            </div>
+
+            <div class="register-option">
+                <div class="icon">📱</div>
+                <div class="text">
+                    <h3>Agrega tu celular</h3>
+                    <p>Podrás usarlo para iniciar sesión en tu cuenta.</p>
+                </div>
+            </div>
+
+            <div class="register-option">
+                <div class="icon">🔐</div>
+                <div class="text">
+                    <h3>Crea tu contraseña</h3>
+                    <p>Mantendrás tu cuenta protegida.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Botón para ir a la página de ingresar -->
+        <div style="text-align: center; margin-top: 20px;">
+            <button id="ingresar-btn" style="padding:10px 20px; background:#3483fa; color:#fff; border:none; border-radius:4px; cursor:pointer; font-size:1rem;">
+                Ingresar
+            </button>
+        </div>
+
+        <p class="business-account">¿Necesitas una cuenta para tu empresa? <a href="#">Crea una cuenta corporativa</a></p>
+    </main>
+
+    <!-- Script que redirige a la página -->
+    <script>
+        document.getElementById('ingresar-btn').addEventListener('click', function() {
+            // Redirige a la página que tú quieras:
+            window.location.href = 'iniciar.html';
+        });
+    </script>
+</body>
+</html>
